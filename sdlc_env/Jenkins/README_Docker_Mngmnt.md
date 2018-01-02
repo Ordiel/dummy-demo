@@ -63,19 +63,19 @@ Next to this file there is a a [Dockerfile](./Dockerfile) that creates a Jenkins
 
 The first Jenkins screen requires the `initialAdminPassword` (read **HOWTO's**)
 
-<center>![initial_jenkins_screen](../../resource/image/jenkins_init_screen.png)</center>
+![initial_jenkins_screen](../../resource/image/jenkins_init_screen.png)
 
 Provide the password to proceed to the next window; There select **Install Selected Plugins**
 
-<center>![select_jenkins_plugins](../../resource/image/jenkins_plugin_selection.png)</center>
+![select_jenkins_plugins](../../resource/image/jenkins_plugin_selection.png)
 
 Wait until it finishes
 
-<center>![plugins_installation_screen](../../resource/image/jenkins_plugins_install_screen.png)</center>
+![plugins_installation_screen](../../resource/image/jenkins_plugins_install_screen.png)
 
 Create the admin user and properly store its password
 
-<center>![jenkins_admin_creation](../../resource/image/jenkins_admin_creation.png)</center>
+![jenkins_admin_creation](../../resource/image/jenkins_admin_creation.png)
 
 ---
 
@@ -87,12 +87,12 @@ Create the admin user and properly store its password
 
 On the main screen go to **Manage Jenkins** then **Global Tool Configuration** search for the **Maven** section and click on **Add Maven**, uncheck the **Install automatically** and set the **MAVEN_HOME** to be `/usr/share/maven/` and name it as `Local Maven`. Save
 
-<center>![jenkins_maven_conf](../../resource/image/jenkins_maven_conf.png)</center>
+![jenkins_maven_conf](../../resource/image/jenkins_maven_conf.png)
 
 ### Set Up Git
 On the main screen go to **Manage Jenkins** then **Global Tool Configuration** search for the **Git** uncheck the **Install automatically** and set the **Path to Git executable** to be `/usr/bin/git` and name it as `Local Git`. Save
 
-<center>![jenkins_git_conf](../../resource/image/jenkins_git_conf.png)</center>
+![jenkins_git_conf](../../resource/image/jenkins_git_conf.png)
 
 ### Set Up Branding
 
